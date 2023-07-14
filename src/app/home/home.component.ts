@@ -36,7 +36,7 @@ export class HomeComponent {
 
     this.filteredLocationList = this.housingLocationList.filter(
       housingLocation => 
-      housingLocation?.city.toLowerCase().includes(text.toLowerCase())
+      housingLocation?.city.toLowerCase().includes(text.toLowerCase()) // housing location filter
       );
   }
   constructor() {
