@@ -67,6 +67,7 @@ export class DetailsComponent {
       this.applyForm.value.lastName ?? '',
       this.applyForm.value.email ?? ''
     );
+    console.log('Submit Application')
   }
   
 }
